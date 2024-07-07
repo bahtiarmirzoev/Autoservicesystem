@@ -26,13 +26,13 @@ const Navbar = () => {
           <FaHome className="mr-2" /> Home
         </Link>
         <Link
-          to="#services"
+          to="services"
           className="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-700 text-white flex items-center"
         >
           <FaServicestack className="mr-2" /> Services
         </Link>
         <Link
-          to="#about"
+          to="about"
           className="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-700 text-white flex items-center"
         >
           <FaInfoCircle className="mr-2" /> About
