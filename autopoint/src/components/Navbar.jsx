@@ -50,13 +50,13 @@ const Navbar = () => {
           <IoStatsChart className="mr-2" /> Statistics
         </Link>
         <Link
-          to="#calendar"
+          to="calendar"
           className="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-700 text-white flex items-center"
         >
           <FaCalendarAlt className="mr-2" /> Calendar
         </Link>
         <Link
-          to="#user"
+          to="user"
           className="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-700 text-white flex items-center"
         >
           <FaUserAlt className="mr-2" /> Login / SignUp
