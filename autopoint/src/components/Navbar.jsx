@@ -38,7 +38,7 @@ const Navbar = () => {
           <FaInfoCircle className="mr-2" /> About
         </Link>
         <Link
-          to="#contact"
+          to="contact"
           className="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-700 text-white flex items-center"
         >
           <FaEnvelope className="mr-2" /> Contact
@@ -56,7 +56,7 @@ const Navbar = () => {
           <FaCalendarAlt className="mr-2" /> Calendar
         </Link>
         <Link
-          to="user"
+          to="loginandsignup"
           className="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-700 text-white flex items-center"
         >
           <FaUserAlt className="mr-2" /> Login / SignUp

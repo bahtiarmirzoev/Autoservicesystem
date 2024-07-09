@@ -3,6 +3,7 @@ import Register from "./Register";
 import About from "./About";
 import Calendar from "./Calendar";
 import Services from "./Services";
+import Contact from "./Contact";
 import { Children } from "react";
 import App from "../App";
 
@@ -33,6 +34,10 @@ const routes = [
         path: "services",
         element: <Services />,
       },
+      {
+        path: "contact",
+        element: <Contact/>
+      }
     ],
   },
 ];
