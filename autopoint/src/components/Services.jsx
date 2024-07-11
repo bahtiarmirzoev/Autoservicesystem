@@ -35,7 +35,25 @@ const Services = () => {
       description:
         "Düzgün təkər balanslaşdırılması avtomobilinizin hərəkətinin təhlükəsizliyini və rahatlığını təmin edir...",
     },
-    // Add other service objects similarly
+    {
+      icon: <PiEngineFill/>,
+      title: "Mühərrikin Diaqnostikası",
+      description:" Bizim mütəxəssislər mühərrikin hər bir  detalını yoxlayaraq mümkün olan problemləri vaxtında aşkar edir və aradan qaldırır. Bu, mühərrikinizin uzun ömürlü olmasını və yüksək performansını təmin edir."
+    },
+    {
+      icon: <FaFan/>,
+      title:"Kondisioner Sistemi Təmirı və Quraşdırılması",
+      description:"Yay aylarında avtomobilinizin kondisioner sistemi maksimum səmərəliliklə işləməlidir. Bizim avtoservisdə kondisioner   sisteminin tam diaqnostikası, təmiri və lazım olduqda yenisinin  quraşdırılması həyata keçirilir."
+    },
+    {
+      icon: <TbCarTurbine/>,
+      title: "Turbin Sistemi Təmirı",
+      description:" Turbin sistemi mühərrikinizin gücünü və səmərəliliyini artıran  mühüm bir komponentdir. Bizim avtoservisdə turbin sisteminin diaqnostikası, təmiri və ehtiyac olduqda dəyişdirilməsi həyata keçirilir. Turbin sisteminizin maksimum performansla işləməsini  təmin edirik ki, avtomobilinizin gücündə heç bir azalma olmasın."
+    },
+    {
+      icon: <FaPlus/>,
+      title: "Servis əlavə et"
+    }
   ];
 
   return (
