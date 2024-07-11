@@ -56,7 +56,7 @@ const Navbar = () => {
           <FaCalendarAlt className="mr-2" /> Calendar
         </Link>
         <Link
-          to="loginandsignup"
+          to="Login"
           className="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-700 text-white flex items-center"
         >
           <FaUserAlt className="mr-2" /> Login / SignUp

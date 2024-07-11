@@ -97,7 +97,7 @@ export default function Register() {
         <p class="mt-10 text-center text-sm text-gray-500">
           Already a member?
           <a
-            onClick={() => navigateTo("/home/login")}
+            onClick={() => navigateTo("../Login")}
             style={{ cursor: "pointer" }}
             class="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
           >

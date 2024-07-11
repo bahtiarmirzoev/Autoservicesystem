@@ -85,7 +85,7 @@ export default function Login() {
           Not a member?
           <a
             style={{ cursor: "pointer" }}
-            onClick={() => navigateTo("/home/register")}
+            onClick={() => navigateTo("../Register")}
             class="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
           >
             Register now
