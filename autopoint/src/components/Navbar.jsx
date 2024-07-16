@@ -44,7 +44,7 @@ const Navbar = () => {
           <FaEnvelope className="mr-2" /> Contact
         </Link>
         <Link
-          to="#statistics"
+          to="statistics"
           className="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-700 text-white flex items-center"
         >
           <IoStatsChart className="mr-2" /> Statistics

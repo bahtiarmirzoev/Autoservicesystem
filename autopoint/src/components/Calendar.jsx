@@ -1,7 +1,5 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
-import { Outlet } from "react-router-dom";
 const Calendar = () => {
   <div class="bg-white md:py-8 px-4 lg:max-w-7xl lg:mx-auto lg:px-8">
     <p class="text-4xl font-bold text-gray-800 mb-8">March 2021</p>

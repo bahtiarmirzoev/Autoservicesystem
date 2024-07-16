@@ -4,7 +4,7 @@ const Modal = ({ isOpen, closeModal, title, description }) => {
   const [input1Value, setInput1Value] = useState("");
   const [input2Value, setInput2Value] = useState("");
   const [input3Value, setInput3Value] = useState("");
-
+  const [input4Value, setInput4Value] = useState("");
   if (!isOpen) return null;
 
   const handleSubmit = (event) => {
@@ -12,6 +12,7 @@ const Modal = ({ isOpen, closeModal, title, description }) => {
     console.log("Input 1:", input1Value);
     console.log("Input 2:", input2Value);
     console.log("Input 3:", input3Value);
+    console.log("input 4:", input4Value);
     closeModal();
   };
 
@@ -60,6 +61,13 @@ const Modal = ({ isOpen, closeModal, title, description }) => {
             placeholder="Qiyməti qeyd edin"
             value={input3Value}
             onChange={(e) => setInput3Value(e.target.value)}
+          />
+           <input
+            type="text"
+            className="border rounded px-3 py-2 mt-2 w-full"
+            placeholder="Ustanin adin qeyd edin"
+            value={input3Value}
+            onChange={(e) => setInput4Value(e.target.value)}
           />
           <button
             type="submit"

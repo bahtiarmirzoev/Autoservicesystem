@@ -4,6 +4,7 @@ import About from "./About";
 import Calendar from "./Calendar";
 import Services from "./Services";
 import Contact from "./Contact";
+import Statistics from "./Statistics";
 import { Children } from "react";
 import App from "../App";
 
@@ -37,7 +38,11 @@ const routes = [
       {
         path: "contact",
         element: <Contact/>
-      }
+      },
+      {
+        path:"statistics",
+        element:<Statistics/>,
+      },
     ],
   },
 ];
