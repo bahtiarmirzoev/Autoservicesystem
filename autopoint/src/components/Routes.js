@@ -24,7 +24,7 @@ const routes = [
         element: <About />,
       },
       {
-        path: "Calendar",
+        path: "calendar",
         element: <Calendar />,
       },
       {

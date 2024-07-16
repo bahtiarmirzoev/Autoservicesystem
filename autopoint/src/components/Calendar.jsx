@@ -1,6 +1,7 @@
 import React from "react";
 
 const Calendar = () => {
+  return (
   <div class="bg-white md:py-8 px-4 lg:max-w-7xl lg:mx-auto lg:px-8">
     <p class="text-4xl font-bold text-gray-800 mb-8">March 2021</p>
     <div class="inline-flex flex-col space-y-1 items-start justify-start h-full w-full">
@@ -131,7 +132,8 @@ const Calendar = () => {
         </div>
       </div>
     </div>
-  </div>;
+  </div>
+  )
 };
 
 export default Calendar;
